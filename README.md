@@ -1,4 +1,4 @@
-## Use easy_push to make the clone process easier for you
+## Use easy_push to make the git process easier for you
 after clone this repo <br>
 run  'chmod u+x easy_push' <br>
 copy easy_push to your working dir <br>
