@@ -7,4 +7,4 @@ run ./easy_push' <br>
 No whitespace allowed on commit message <br>
 use underscore '_' or to separet words <br>
 
-### Thanks for using easy_push
+## Thanks for using easy_push
