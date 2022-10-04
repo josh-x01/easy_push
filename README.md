@@ -5,14 +5,14 @@ Please follow the instruction carefully
 git clone https://github.com/eyasuyid/easy_push.git
 cd easy_push
 chmod u+x easy_push
-sudo cp easy_push /usr/local/bin/es
+sudo cp easy_push /usr/local/bin/ep
 ```
-run es as easy_push:
+run ep as easy_push:
 
-	es
+	ep
 
 ```
-dev@developer:~$ es
+dev@developer:~$ ep
 Commit message: Write your commit message here
 [main a4119bc] Write your commit message here
  2 files changed, 26 insertions(+), 11 deletions(-)
@@ -23,14 +23,14 @@ Compressing objects: 100% (4/4), done.
 Writing objects: 100% (4/4), 660 bytes | 660.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/eyasuyid/easy_push.git
-   c1abf62..a4119bc  main -> mai
+   c1abf62..a4119bc  main -> main
 ```
 Second option using args:
 	
-	es "Write your commit message here"
+	ep "Write your commit message here"
 	
 ```
-dev@developer:~$ es "Write your commit message here"
+dev@developer:~$ ep "Write your commit message here"
 [main a4119bc] Write your commit message here
  2 files changed, 26 insertions(+), 11 deletions(-)
 Enumerating objects: 7, done.
