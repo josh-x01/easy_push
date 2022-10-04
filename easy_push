@@ -1,7 +1,16 @@
 #!/bin/bash
 
 git add .
-echo "commit message"
-read msg
-git commit -m $msg
+if [[ $# == 0 ]]
+then
+	read -p "Commit message: " msg
+elif [[ $# == 1 ]]
+then
+	msg=$1
+else
+	echo "Too many arguments."
+	exit 1
+fi
+git commit -m "$msg"
 git push
+exit 0
