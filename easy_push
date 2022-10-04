@@ -13,4 +13,5 @@ else
 fi
 git commit -m "$msg"
 git push
+echo "[* Done]\tThank you for using easy_push"
 exit 0
