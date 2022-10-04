@@ -7,10 +7,13 @@ cd easy_push
 chmod u+x easy_push
 sudo cp easy_push /usr/local/bin/es
 ```
-```es```
+run es as easy_push:
+
+	es
+
 ```
 dev@developer:~$ es
-Commit message: write your commit message here
+Commit message: Write your commit message here
 [main a4119bc] Write your commit message here
  2 files changed, 26 insertions(+), 11 deletions(-)
 Enumerating objects: 7, done.
@@ -22,7 +25,10 @@ Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/eyasuyid/easy_push.git
    c1abf62..a4119bc  main -> mai
 ```
-Second option using args
+Second option using args:
+	
+	es "Write your commit message here"
+	
 ```
 dev@developer:~$ es "Write your commit message here"
 [main a4119bc] Write your commit message here
@@ -37,4 +43,5 @@ To https://github.com/eyasuyid/easy_push.git
    c1abf62..a4119bc  main -> main
 ```
 
+Copyright © by Eyasu Yidnekachew
 ### Thanks for using easy_push
